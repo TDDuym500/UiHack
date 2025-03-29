@@ -1,0 +1,94 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/TDDuym500/UiHack/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "NomDom",
+         Animation = "Wait..."
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=86321368825608",
+       Size = {50, 50},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     
+	 local Tab1o = MakeTab({Name = "Test"})
+
+
+     
+-------TOGGLE 
+
+
+Toggle = AddToggle(Tab1o, {
+    Name = "Test",
+    Default = false,
+    Callback = function(state)
+    
+    end
+})
+
+
+---BUTTON
+
+AddButton(Tab1o, {
+    Name = "test",
+   Callback = function()
+    
+ end
+ })
+
+
+ Dropdown = AddDropdown(Tab1o, {
+    Name = "Select Tesst",
+    Options = {"Test ", "Test ", "Test ", "Test "},
+    Default = "Melee",
+    Callback = function()
+    end
+  })
+
+----- Section 
+  
+  Section = AddSection(Tab1o, {"Section  Test"})          
+
+----- Paragraph 
+                   
+  Paragraph = AddParagraph(Farm, {"Paragraph Test", ""})
+  
+----- Slider 
+
+   local mobmau = AddSlider(Tab1o, {
+    Name = "Test",
+    MinValue = 0,
+    MaxValue = 0,
+    Default = 0,
+    Increase = 1,
+    Callback = function()
+    end
+   })   
+   
+   local TextBox = AddTextBox(Tab1o, {
+   Name = "Test",
+   Default = "",
+  PlaceholderText = "",
+  Callback = function()
+end
+})
