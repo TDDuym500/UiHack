@@ -12,7 +12,7 @@ Notification:Notify(
    {Image = "http://www.roblox.com/asset/?id=138569547227924", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
 notify.New("Project Main 1.0", 60)
-notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
+notify.New("by Duy Skibidi", 60)
 
 local old_tts = tostring;
 local a, b = {
