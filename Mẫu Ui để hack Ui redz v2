@@ -1,3 +1,8 @@
+---------Skid cái buồi
+
+
+
+
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/TDDuym500/UiHack/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
