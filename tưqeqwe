@@ -1,4 +1,4 @@
-
+---- Đọc này làm chó
 local old_tts = tostring;
 local a, b = {
 	{
